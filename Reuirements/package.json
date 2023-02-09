@@ -13,7 +13,8 @@
     "scripts": {
         "start": "cds run",
         "deploy": "cds deploy --to hana:RequrementsTracking-dev",
-        "login": "cf login -a https://api.cf.us10-001.hana.ondemand.com -s dev  -u sean.baker@nttdata.com"
+        "login": "cf login -a https://api.cf.us10-001.hana.ondemand.com -s dev  -u sean.baker@nttdata.com",
+        "Env" : "cds watch --profile hybrid"
     },
     "engines": {
         "node": "^16.15"
